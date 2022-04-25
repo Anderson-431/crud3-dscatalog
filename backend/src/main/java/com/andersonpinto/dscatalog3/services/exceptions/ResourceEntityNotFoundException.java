@@ -1,9 +1,9 @@
 package com.andersonpinto.dscatalog3.services.exceptions;
 
-public class EntityNotFoundException extends RuntimeException{
+public class ResourceEntityNotFoundException extends RuntimeException{
 	private static final long serialVersionUID = 1L;
 
-	public EntityNotFoundException(String msg) {
+	public ResourceEntityNotFoundException(String msg) {
 		super(msg);
 	}
 }
